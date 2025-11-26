@@ -1,0 +1,127 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Your Name — Portfolio</title>
+	<meta name="description" content="Portfolio of Your Name — projects, skills and contact." />
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="logo" href="#">MANOJ H K</a>
+			<nav class="nav" id="main-nav">
+				<a href="#about">I AM FROM MYSORE</a>
+				<a href="#projects">I CREATED  WEB PAGE CONSISTING OF RESPONSE FOR EMERGENCY</a>
+				<a href="#skills">CYBER SECURITY, C PROGRAMMING </a>
+				<a href="#contact">CONTACT NUMBER: 8618520743,EMAIL ID: MANUSHETTY8260@GMAIL.COM</a>
+			</nav>
+			<button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero" id="home">
+			<div class="container hero-inner">
+				<div class="hero-text">
+					<h1>Hi, I'm Manoj H K</h1>
+					<p class="lead">I build accessible, performant web experiences. Frontend developer • Designer • Problem solver.</p>
+					<p>
+						<a class="btn" href="#projects">See my work</a>
+						<a class="btn ghost" href="#contact">Get in touch</a>
+					</p>
+				</div>
+				<div class="hero-avatar" aria-hidden="true">
+					<!-- simple inline SVG placeholder avatar -->
+					<svg width="180" height="180" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect width="120" height="120" rx="16" fill="#E6EEF6"/>
+						<circle cx="60" cy="44" r="24" fill="#D6EFFF"/>
+						<rect x="20" y="78" width="80" height="18" rx="4" fill="#D6EFFF"/>
+					</svg>
+				</div>
+			</div>
+		</section>
+
+		<section class="container about" id="about">
+			<h2>About</h2>
+			<p>I'm a web developer who cares about clean code, strong UX, and performance. I enjoy turning ideas into delightful, accessible interfaces. Currently exploring TypeScript, modern CSS, and serverless backends.</p>
+		</section>
+
+		<section class="container projects" id="projects">
+			<h2>Selected Projects</h2>
+			<div class="projects-grid">
+				<article class="project-card">
+					<div class="project-thumb" role="img" aria-label="Project A screenshot">
+						<svg viewBox="0 0 200 120" preserveAspectRatio="none"><rect width="200" height="120" fill="#F5F8FA"/></svg>
+					</div>
+					<h3>Responce hub</h3>
+					<p>I created a web project of responce hub that consist emergency medical,fire,and police helps that is very useful for users in emergency.</p>
+					<p><a class="link" href="#">View project →https://claude.ai/public/artifacts/6476ecbc-b857-4f97-96ab-be194fc66d1e</a></p>
+				</article>
+
+				<article class="project-card">
+					<div class="project-thumb" role="img" aria-label="Project B screenshot">
+						<svg viewBox="0 0 200 120" preserveAspectRatio="none"><rect width="200" height="120" fill="#F5F8FA"/></svg>
+					</div>
+					<h3>Project B</h3>
+					<p>Short description. Responsive layout, accessible components and tests.</p>
+					<p><a class="link" href="#">View project →</a></p>
+				</article>
+
+				<article class="project-card">
+					<div class="project-thumb" role="img" aria-label="Project C screenshot">
+						<svg viewBox="0 0 200 120" preserveAspectRatio="none"><rect width="200" height="120" fill="#F5F8FA"/></svg>
+					</div>
+					<h3>Project C</h3>
+					<p>Short description. Performance-oriented single-page app with progressive enhancement.</p>
+					<p><a class="link" href="#">View project →</a></p>
+				</article>
+			</div>
+		</section>
+
+		<section class="container skills" id="skills">
+			<h2>Skills</h2>
+			<ul class="skill-list">
+				<li>HTML & CSS</li>
+				<li>JavaScript & TypeScript</li>
+				<li>React / Svelte</li>
+				<li>Accessibility (a11y)</li>
+				<li>Testing & CI</li>
+			</ul>
+		</section>
+
+		<section class="container contact" id="contact">
+			<h2>Contact</h2>
+			<p>If you'd like to work together, send an email or use the form below.</p>
+			<p><a href="mailto:youremail@example.com" class="btn">manushetty8260@gmail.com</a></p>
+
+			<form id="contact-form" class="contact-form">
+				<label for="name">Name</label>
+				<input id="name" name="name" required>
+
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email" required>
+
+				<label for="message">Message</label>
+				<textarea id="message" name="message" rows="5" required></textarea>
+
+				<button type="submit" class="btn">Send</button>
+			</form>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<small>© <span id="year"></span> Manoj H K. Built with care.</small>
+			<nav class="footer-links">
+				<a href="#">GitHub: manushetty8260</a>
+				<a href="#">LinkedIn" Manu Shetty</a>
+			</nav>
+		</div>
+	</footer>
+
+	<script src="script.js" defer></script>
+</body>
+</html>
